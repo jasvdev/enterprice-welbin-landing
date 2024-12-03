@@ -6,5 +6,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind()]
+  site: 'https://jasvdev.github.io',
+  base: 'enterprice-welbin-landing',
+  integrations: [tailwind()],
 });
